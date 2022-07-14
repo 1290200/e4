@@ -5,6 +5,10 @@ int main(){
   int i,count1 = 0,count2 = 0;
     char name[50];
 
+    printf("Who are you?\n> ");
+  scanf("%s",name);
+  printf("Hello, %s!\n",name);
+
   for(i = 0; i < 5; i++){
     printf("Round%d: ", i + 1);
     int num = rand() % 2;

@@ -2,8 +2,8 @@
 #include<stdlib.h>
 
 int main(){
-  int i,count1 = 0,count2 = 0;
-    char name[50];
+    int i,count1 = 0,count2 = 0;
+        char name[50];
 
   for(i = 0; i < 5; i++){
     printf("Round%d: ", i + 1);
@@ -20,6 +20,12 @@ int main(){
   }
 
   printf("Heads: %d. Tail: %d, count1, count2")
+    if(count1 > count2){
+        printf("You won");
+    }
+    else{
+        printf("You lost");
+    }
 
   return 0;
 }

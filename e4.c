@@ -23,7 +23,7 @@ int main(){
     }
   }
 
-  printf("Heads: %d. Tail: %d, count1, count2")
+  printf("Heads: %d. Tails: %d", count1, count2);
 
   return 0;
 }

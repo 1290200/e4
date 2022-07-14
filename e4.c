@@ -25,10 +25,10 @@ int main(){
 
   printf("Heads: %d. Tail: %d, count1, count2")
     if(count1 > count2){
-        printf("You won");
+        printf("%s won", name);
     }
     else{
-        printf("You lost");
+        printf("%s lost", name);
     }
 
   return 0;
